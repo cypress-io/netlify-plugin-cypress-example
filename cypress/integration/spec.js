@@ -13,6 +13,6 @@ describe('Gatsby blog', () => {
     cy.url().should('match', /page-2/)
     cy.contains('main > h1', 'Hi from the second page')
     cy.contains('a', 'Go back to the homepage').click()
-    cy.url().should('equal', Cypress.config('baseUrl'))
+    cy.url().should('include', Cypress.config('baseUrl'))
   })
 })

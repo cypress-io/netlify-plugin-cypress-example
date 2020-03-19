@@ -5,7 +5,7 @@
   publish = "public"
 [build.environment]
     # do not show Cypress installation progress messages
-    CI = 1
+    CI = "1"
     # cache Cypress binary in local "node_modules" folder
     # so Netlify caches it
     CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"

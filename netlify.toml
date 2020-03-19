@@ -20,9 +20,11 @@
     wait-on = 'http://localhost:8000'
     wait-on-timeout = '30' # seconds
     record = true
-    group = 'testing develop site'
+    group = '1: testing develop site'
+    tag = 'pre-build'
   # then Netlify builds the site
   # and then our tests will run again, testing the built production version
   [plugins.inputs]
   record = true
-  group = 'testing built site'
+  group = '2: testing built site'
+  tag = 'post-build'

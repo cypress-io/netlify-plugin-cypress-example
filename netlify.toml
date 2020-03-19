@@ -21,10 +21,10 @@
     wait-on-timeout = '30' # seconds
     record = true
     group = '1: testing develop site'
-    tag = 'pre-build'
+    # tag = 'pre-build'
   # then Netlify builds the site
   # and then our tests will run again, testing the built production version
   [plugins.inputs]
   record = true
   group = '2: testing built site'
-  tag = 'post-build'
+  # tag = 'post-build'

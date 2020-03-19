@@ -37,7 +37,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "cypress run",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "postinstall": "cypress install"
   },
   "repository": {
     "type": "git",

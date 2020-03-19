@@ -19,7 +19,9 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "cypress": "4.2.0",
+    "prettier": "^1.19.1",
+    "start-server-and-test": "1.10.11"
   },
   "keywords": [
     "gatsby"
@@ -28,11 +30,13 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "dev": "start-test develop 8000 cy:open",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "cypress run",
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",

@@ -14,15 +14,9 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
-  # let's first test the site before Gatsby builds it
-  [plugins.inputs.preBuild]
-    start = 'npm run develop'
-    wait-on = 'http://localhost:8000'
-    wait-on-timeout = '30' # seconds
-    record = true
-    group = '1: testing develop site'
-  # then Netlify builds the site
-  # and then our tests will run again, testing the built production version
+  # optional: record the test results and videos to Cypress Dashboard
+  # https://on.cypress.io/dashboard-introduction
+  # note: we have set the CYPRESS_RECORD_KEY environment variable
+  # using Netlify UI to keep it secret
   [plugins.inputs]
   record = true
-  group = '2: testing built site'

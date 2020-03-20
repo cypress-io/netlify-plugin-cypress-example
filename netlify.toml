@@ -19,5 +19,3 @@
   [plugins.inputs]
   record = true
   group = "netlify"
-  tag = "..."
-  spec = "cypress/integration/smoke*.js"

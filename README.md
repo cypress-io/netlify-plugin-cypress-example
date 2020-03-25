@@ -1,4 +1,4 @@
-# netlify-plugin-cypress-example [![Netlify Status](https://api.netlify.com/api/v1/badges/6f4acde7-5ecb-48f7-807b-3b4b5da57f25/deploy-status)](https://app.netlify.com/sites/netlify-plugin-cypress-example/deploys)
+# netlify-plugin-cypress-example [![Netlify Status](https://api.netlify.com/api/v1/badges/5dc09d11-2eef-4aec-8001-79fdf070c683/deploy-status)](https://app.netlify.com/sites/netlify-plugin-cypress-example/deploys)
 > An example site built and tested on Netlify using [netlify-plugin-cypress](https://github.com/cypress-io/netlify-plugin-cypress)
 
 This starter demonstrates a simple Cypress configuration plugin with Gatsby and Netlify. View plugin options in the [netlify.toml](netlify.toml).

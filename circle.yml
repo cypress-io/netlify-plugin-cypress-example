@@ -5,6 +5,7 @@ jobs:
   test:
     executor: cypress/base-12-14-0
     steps:
+      - checkout
       - cypress/install:
           # we only have 1 CI job, no need to save the workspace
           no-workspace: true
@@ -16,5 +17,4 @@ workflows:
   version: 2
   test:
     jobs:
-      - checkout
       - test

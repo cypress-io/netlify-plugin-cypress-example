@@ -1,4 +1,4 @@
-# netlify-plugin-cypress-example [![Netlify Status](https://api.netlify.com/api/v1/badges/5dc09d11-2eef-4aec-8001-79fdf070c683/deploy-status)](https://app.netlify.com/sites/netlify-plugin-cypress-example/deploys) [![CircleCI](https://circleci.com/gh/cypress-io/netlify-plugin-cypress-example/tree/master.svg?style=svg)](https://circleci.com/gh/cypress-io/netlify-plugin-cypress-example/tree/master)
+# netlify-plugin-cypress-example [![Netlify Status](https://api.netlify.com/api/v1/badges/5dc09d11-2eef-4aec-8001-79fdf070c683/deploy-status)](https://app.netlify.com/sites/netlify-plugin-cypress-example/deploys) [![CircleCI](https://circleci.com/gh/cypress-io/netlify-plugin-cypress-example/tree/master.svg?style=svg)](https://circleci.com/gh/cypress-io/netlify-plugin-cypress-example/tree/master) [![renovate-app badge][renovate-badge]][renovate-app]
 > An example site built and tested on Netlify using [netlify-plugin-cypress](https://github.com/cypress-io/netlify-plugin-cypress)
 
 This starter demonstrates a simple Cypress configuration plugin with Gatsby and Netlify. View plugin options in the [netlify.toml](netlify.toml).
@@ -15,3 +15,6 @@ Advanced Cypress configuration options: Please check out the configuration file 
 
 ### View Results
 Find recorded test results and artifacts at [![Cypress Dashboard](https://img.shields.io/badge/cypress-dashboard-brightgreen.svg)](https://dashboard.cypress.io/#/projects/ih9cap/runs)
+
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/

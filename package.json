@@ -26,7 +26,10 @@
     "start-server-and-test": "1.10.11"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "netlify",
+    "netlify-plugin-example",
+    "cypress-example"
   ],
   "license": "MIT",
   "scripts": {
@@ -42,9 +45,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/cypress-io/netlify-plugin-cypress-example"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/cypress-io/netlify-plugin-cypress-example/issues"
   }
 }

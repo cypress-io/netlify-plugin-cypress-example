@@ -1,7 +1,7 @@
 # netlify-plugin-cypress-example [![Netlify Status](https://api.netlify.com/api/v1/badges/5dc09d11-2eef-4aec-8001-79fdf070c683/deploy-status)](https://app.netlify.com/sites/netlify-plugin-cypress-example/deploys) [![CircleCI](https://circleci.com/gh/cypress-io/netlify-plugin-cypress-example/tree/master.svg?style=svg)](https://circleci.com/gh/cypress-io/netlify-plugin-cypress-example/tree/master) [![renovate-app badge][renovate-badge]][renovate-app]
 > An example site built and tested on Netlify using [netlify-plugin-cypress](https://github.com/cypress-io/netlify-plugin-cypress)
 
-This starter demonstrates a simple Cypress configuration plugin with Gatsby and Netlify. View plugin options in the [netlify.toml](netlify.toml).
+This starter demonstrates a simple Cypress configuration plugin with Gatsby and Netlify. View plugin options in the [netlify.toml](netlify.toml). Read the blog post [Run Cypress Tests on Netlify Using a Single Line](https://www.cypress.io/blog/2020/03/30/run-cypress-tests-on-netlify-using-a-single-line/).
 
 Created from [gatsby-starter-default](https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-default/) starter template
 

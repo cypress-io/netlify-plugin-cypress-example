@@ -21,7 +21,7 @@
   "devDependencies": {
     "cypress": "6.6.0",
     "netlify-cli": "3.10.3",
-    "netlify-plugin-cypress": "2.0.0-prepare-v2.2",
+    "netlify-plugin-cypress": "2.0.0",
     "prettier": "^1.19.1",
     "start-server-and-test": "1.10.11"
   },

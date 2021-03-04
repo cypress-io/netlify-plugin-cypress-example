@@ -625,3 +625,9 @@ pre tt:after {
 footer {
   text-align: center;
 }
+
+/* .gatsby-image-wrapper {
+  overflow: unset !important;
+  max-width: unset !important;
+  position: relative;
+} */

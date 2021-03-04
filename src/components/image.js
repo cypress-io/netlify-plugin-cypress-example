@@ -26,7 +26,10 @@ const Image = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img style={{
+    maxWidth: `100%`,
+    overflow: `unset !important`
+  }} fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Image
